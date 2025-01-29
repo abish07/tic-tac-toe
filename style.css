@@ -43,12 +43,13 @@ body{
     width: 14vmin;
     height: 6vmin;
     cursor: pointer;
-    background-color: palegreen;
+    background-color: rgb(23, 19, 19);
     border: none;
+    color: white;
 }
 .reset:hover{
-    background-color: green;
-    color: tomato;
+    background-color: rgb(81, 82, 81);
+    color: #ddff00;
 }
 .box:hover{
     background-color: #f81289;
@@ -62,6 +63,21 @@ body{
     margin-top: 5vmin;
 }
 .newGame:hover{
-    background-color: green;
-    color: tomato;
+    background-color: rgb(23, 19, 19);
+    color: #ddff00;
 }   
+.msg-container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+.hide{
+    display: none;
+}
+.disable{
+    pointer-events: none;
+    opacity: 0.5;
+}
